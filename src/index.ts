@@ -2616,6 +2616,16 @@ app.get('/characters', (req, res) => {
   res.status(200).json(characters)
 })
 
+app.get('/characters/:id', (req, res) => {
+  const { id } = req.params;
+  const characterResult = characters.filter(a => a.id == id) || []
+  if (characterResult.length == 0) {
+    res.status(404).json({ message: "character is note found" })
+  }
+
+  res.status(200).json(characterResult[0])
+})
+
 app.get('/about', function (req, res) {
   res.sendFile(path.join(__dirname, '..', 'components', 'about.htm'))
 })
