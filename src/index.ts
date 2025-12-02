@@ -188,7 +188,7 @@ const characters =[
           "Eight Man Squad",
           "Hanabi Rescue Team  (Movie only)"
         ],
-        "clan": "Uzumaki",
+        "clan": ["Uzumaki"],
         "titles": [
           "うずまきナルトUzumakiNaruto",
           "the-off,NumberOneUnpredictable,NoisyNinja(目立ちたがり屋で意外性no.1のドタバタ忍者,MedachitagariyaDeIgaiseiNanbāWanNoDotabataNinja,EnglishTv:NumberOneHyperactive,KnuckleheadNinja)",
@@ -377,7 +377,7 @@ const characters =[
           "Sound Four",
           "Taka"
         ],
-        "clan": "Uchiha",
+        "clan": ["Uchiha"],
         "titles": [
           "うちはサスケUchihaSasuke",
           "childOfTheProphecy(予言の子,YogenNoKo)",
@@ -535,7 +535,7 @@ const characters =[
           "Obito Uchiha",
           "Black Zetsu"
         ],
-        "clan": "Uchiha",
+        "clan": ["Uchiha"],
         "titles": [
           "うちはマダラUchihaMadara",
           "secondSixPaths(二人目の六道,FutarimeNoRikudō)",
@@ -684,7 +684,7 @@ const characters =[
           "Eight Man Squad",
           "Third Division"
         ],
-        "clan": "Hatake",
+        "clan": ["Hatake"],
         "titles": [
           "はたけカカシHatakeKakashi",
           "copyNinjaKakashi(コピー忍者のカカシ,KopīNinjaNoKakashi)",
@@ -1013,7 +1013,7 @@ const characters =[
           "Deidara",
           "Zetsu"
         ],
-        "clan": "Uchiha",
+        "clan": ["Uchiha"],
         "titles": [
           "うちはオビトUchihaObito",
           "tobi(トビ)",
@@ -1167,7 +1167,7 @@ const characters =[
           "Three Sand Siblings",
           "Fourth Division"
         ],
-        "clan": "Kazekage   (Novel only)"
+        "clan": ["Kazekage   (Novel only)"]
       },
       "rank": {
         "ninjaRank": {
@@ -1761,7 +1761,7 @@ const characters =[
           "Team Ebisu",
           "Team 7"
         ],
-        "clan": "Sarutobi",
+        "clan": ["Sarutobi"],
         "titles": [
           "猿飛木ノ葉丸SarutobiKonohamaru",
           "honourableGrandson(お孫様,Omago-sama)"
@@ -2204,7 +2204,7 @@ const characters =[
           "Jūzō Biwa  (Anime only)",
           "Kisame Hoshigaki"
         ],
-        "clan": "Uchiha",
+        "clan": ["Uchiha"],
         "titles": [
           "うちはイタチUchihaItachi",
           "itachiOfTheSharingan(写輪眼のイタチ,SharinganNoItachi,LiterallyMeaning:ItachiOfTheCopyWheelEye)clanKillerItachi(一族殺しのイタチ,IchizokugoroshiNoItachi)"
@@ -2313,7 +2313,7 @@ const characters =[
           "Konohagakure",
           "Allied Shinobi Forces"
         ],
-        "clan": "Senju",
+        "clan": ["Senju"],
         "titles": [
           "千手柱間SenjuHashirama",
           "firstHokage(初代火影,ShodaiHokage)",
@@ -2426,7 +2426,7 @@ const characters =[
           "Allied Shinobi Forces"
         ],
         "team": "Team Hiruzen",
-        "clan": "Senju"
+        "clan": ["Senju"]
       },
       "rank": {
         "ninjaRank": {
@@ -2525,7 +2525,7 @@ const characters =[
           "Third Division",
           "Suicide Corps  (Movie only)"
         ],
-        "clan": "Lee   (Novel only)"
+        "clan": ["Lee   (Novel only)"]
       },
       "rank": {
         "ninjaRank": {
