@@ -2618,7 +2618,8 @@ app.get('/characters', (req, res) => {
 
 app.get('/characters/:id', (req, res) => {
   const { id } = req.params;
-  const characterResult = characters.filter(a => a.id == id) || []
+  const idNumber = parseInt(id, 10);
+  const characterResult = characters.filter(a => a.id ==  idNumber) || []
   if (characterResult.length == 0) {
     res.status(404).json({ message: "character is note found" })
   }
