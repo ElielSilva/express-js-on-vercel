@@ -2,8 +2,7 @@ import express from 'express'
 import path from 'path'
 import { fileURLToPath } from 'url';
 // import { characters } from './database/characters.js'
-const characters = {
-  "characters": [
+const characters =[
     {
       "id": 1344,
       "name": "Naruto Uzumaki",
@@ -2605,11 +2604,7 @@ const characters = {
         "english": "Kaiji Tang"
       }
     }
-  ],
-  "currentPage": 1,
-  "pageSize": 20,
-  "total": 1431
-}
+]
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -2617,7 +2612,7 @@ const __dirname = path.dirname(__filename)
 const app = express()
 
 // Home route - HTML
-app.get('/', (req, res) => {
+app.get('/characters', (req, res) => {
   res.status(200).json(characters)
 })
 
