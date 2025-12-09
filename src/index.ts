@@ -2,6 +2,9 @@ import express from 'express'
 import path from 'path'
 import { fileURLToPath } from 'url';
 // import { characters } from './database/character.js'
+import villages from "./database/villages.js";
+
+console.log(villages);
 
 const characters = [
   {
@@ -1296,6 +1299,10 @@ app.get('/characters/:id', (req, res) => {
   }
 
   res.status(200).json(characterResult[0])
+})
+
+app.get('/villages', (req, res) => {
+  res.status(200).json(villages)
 })
 
 app.get('/about', function (req, res) {
